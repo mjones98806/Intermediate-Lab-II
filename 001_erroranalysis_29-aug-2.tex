@@ -1,0 +1,90 @@
+\documentclass[aps,twocolumn,secnumarabic,balancelastpage,amsmath,amssymb,nofootinbib]{revtex4-1}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\textwidth = 6.0 in
+\textheight = 8.5 in
+\oddsidemargin = 0.5 in
+\evensidemargin = 0.0 in
+\topmargin = 0.0 in
+\headheight = 0.0 in
+\headsep = 0.0 in
+\parskip = 0.2in
+\parindent = 0.0in
+
+\begin{document}\thispagestyle{empty}
+\begin{center}
+{\large \bf Error Analysis}
+\rule{\columnwidth}{0.5pt}\\[-10mm]
+\end{center}
+Please write your solutions in \LaTeX\ . Your \LaTeX\ report will need to have one figure 
+(from problem 5); you may use matplotlib or a scientific graphics package of your choice
+to create the plot. Save it as a .pdf or a .png file for inclusion in your \LaTeX\ file. Please turn in
+a printed copy of your solutions. \\
+\textbf{Due:} BEFORE class Tuesday, 5 Sept 2017\\
+\rule{\columnwidth}{0.5pt}
+
+
+\begin{enumerate}
+\item Rewrite the following results in their \textit{clearest forms}, with suitable numbers of significant figures:
+	\begin{enumerate}
+	\item measured height $ = 2.091 \pm 0.04329$ m
+	\item  measured time $ = 1.5432 \pm 1.01$ s
+	\item measured chage $ = -3.21\times 10^{-18} \pm 2.67 \times 10^{-20}$ C
+	\item measured distance $ = 0.000,000,563 \pm 0.000,000,07$ m
+	\item measured momentum $ = 3.267\times 10^3 \pm 64$ g$\cdot$cm/s
+	\end{enumerate}
+
+
+\item A student measures the density of a liquid 5 times and gets the results (in units of g/cm$^3$)  1.8,  2.0, 2.0, 1.9, 1.7 and 1.8. 
+	\begin{enumerate}
+	\item What would you suggest as the best estimate and uncertainty based on these measurements?
+	\item The student is told that the accepted value is 1.85 g/cm$^3$. What is the discrepancy between the student's best estimate and the accepted value?
+	\item Do you think the discrepancy it is significant?
+	\item Calculate the rms deviation of these measurements.
+	\end{enumerate}
+
+\item If I measure the radius of a sphere as $r = 2.0 \pm 0.1$ m, what should I report for the sphere's volume?
+
+\item Suppose that you measure two independent variables as
+$$ x = 6.0 \pm 0.2 \;\;\;\;\; \mathrm{and} \;\;\;\;\; y = 3.0 \pm 0.1,$$
+and use these values to calculate $q = xy + x^2/y$. What will be your answer and its uncertainty? Show your work!
+
+\item \label{prob:stone} If a stone is thrown vertically upward with speed $v$, it should rise to a height $h$ given by $v^2 = 2gh$. In particular, $v^2$ should be proportional to h. To test this proportionality, a student measures $v^2$ and $h$ for seven different throws and obtains the results shown in Table~\ref{tab:stone}. 
+	\begin{enumerate}
+	\item Make a plot of $v^2$ vs $h$, including vertical and horizontal error bars using a graphics package of your choosing. As usual, label your axes, and scale the axes suitably. Is your plot consistent with the prediction that $v^2 \propto h$?
+	\item The slope of your graph should be $2g$. To find the slope, draw the best fit straight line by performing a linear fit to the data. Your plotting program will likely spit out an estimate of the uncertainty of the slope; if so what is that uncertainty?
+	\item Estimate the uncertainty in the slope manually by drawing in the steepest and least steep lines that seem to fit the data reasonably. The slopes of these lines give the largest and smallest probable values of the slope. Are your results consistent with the accepted value $2 g = 19.6$ m/s$^2$?
+	\end{enumerate}
+
+	\begin{table}[h]
+	\caption{\label{tab:stone} Heights and speeds of a stone thrown vertically upward. For Problem~\ref{prob:stone}.}
+	\begin{ruledtabular}
+	\begin{tabular}{cc}
+	 $h$ & $v^2$\\
+	\hline
+	($\pm 0.05$ m) & (m$^2$/s$^2$)\\
+	\hline
+	0.4 & $7 \pm 3$\\
+	0.8 & $17 \pm 3$\\
+	1.4 & $25 \pm 3$\\
+	2.0 & $38\pm 3$\\
+	2.6 & $45 \pm 3$\\
+	3.4 & $62\pm 3$\\
+	3.8 & $72\pm 3$\\
+	
+	\end{tabular}
+	\end{ruledtabular}
+	\end{table}
+
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+\end{document}
